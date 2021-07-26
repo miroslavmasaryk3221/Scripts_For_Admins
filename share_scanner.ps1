@@ -1,7 +1,7 @@
 ﻿#region variables
 #$WorkingDirectory = $PSScriptRoot + "\"
 #$OutputFolder = $WorkingDirectory + "Ausgabe\"
-$OutputFolder = "\\odefmf02\ISCtrls\Monitoring\Shares\"
+$OutputFolder = "enteroutputfolder"
 
 $TimeStamp = get-date -uformat '%d-%m-%Y'
 $ServerName = $env:computername
