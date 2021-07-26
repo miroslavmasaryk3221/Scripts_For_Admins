@@ -12,7 +12,7 @@
 
 
 
-Invoke-Command -Computername "odefmd06" -ScriptBlock { 
+Invoke-Command -Computername "entername" -ScriptBlock { 
 AcroRdrDC2100120140_de_DE.exe /sAll /rs /msi EULA_ACCEPT=YES}
 
 # Wait XX Seconds for the installation to finish
